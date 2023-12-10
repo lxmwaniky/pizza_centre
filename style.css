@@ -1,0 +1,76 @@
+body{
+        background-color: grey;
+        background-image: url(images/chad-montano-eeqbbemH9-c-unsplash.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-position: center;
+}
+.container{
+        width: 1024px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+}
+h1{
+        text-decoration: underline;
+}
+nav{
+        margin-top: 150px;
+        
+}
+.nav-links a{
+        padding-top: 20px;
+        padding-left: 30px;
+        font-size: 29px;
+}
+nav a{
+        text-decoration: none;
+        color: black;
+}
+.nav-links a{
+        transition: 0.5s;
+}
+.nav-links a:hover{
+        text-decoration: underline;
+        color: red;
+}
+.logo{
+        text-align: left;
+        font-size: 75px;
+}
+span {
+        color: red;
+}
+main{
+        margin-top: 50px;
+}
+main #gallery{
+        margin-top: 40px;
+        text-align: left;
+}
+main #gallery img{
+        padding-left: 20px;
+        border-radius: 20px;
+        border-style: solid;
+        width: 300px;
+        height: 300px;
+        transition: 0.05px;
+}
+main button{
+        font-size: 45px;
+        background-color: red;
+        border-radius: 20px;
+        transition: 0.05s;
+}
+main button:hover{
+        background-color: rgb(202, 11, 11);
+        font-size: 50px;
+}
+main button a{
+        text-decoration: none;
+        color: black;
+}
+main #about h1{
+        padding-top: 50px;
+}
